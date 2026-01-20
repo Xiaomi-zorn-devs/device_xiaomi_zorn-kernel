@@ -90,7 +90,7 @@ for MODULE_FOLDER in "${MODULE_FOLDERS[@]}"; do
     fi
 
     if [ "${MODULE_FOLDER}" == "system_dlkm" ]; then
-        MODULE_SRC="${DUMP}/system_dlkm/lib/modules/6.1.118-android14-11-ga3b9c44908dd-ab13320413"
+        MODULE_SRC="${DUMP}/system_dlkm/lib/modules/6.1.118-android14-11-gca0ef6d17716-ab13624819"
     fi
 
     if [ "${MODULE_FOLDER}" == "system_dlkm_flatten" ]; then
